@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+html(lang="en")
+head
+	meta(charset="UTF-8")
+	title Document
+	link(rel='stylesheet', href='//rawgit.com/chrisnager/ungrid/gh-pages/ungrid.min.css')
+	style
+		:stylus
+			html, body
+				height 100%
+			.row
+				border 1px solid red
+			.col
+				background-color lightgreen
+				border 1px solid blue
+body
+	:marked
+		# Hey you
+		what are you doing?
+	.background
+		h1 Are you struggling to get the job of your dreams as a web developer?
+		p Let me show the simple secrets you need to know to boost your career.
+		h1 Would you like to know the simplest path to learn Rails and apply it in a job?
+		p Here is it, you need just a couple of minutes.
+	.problem
+		.row
+			.col
+			.col(style='width:60%')
+				:marked
+					- learning by your own is too hard, you need to keep yourself
+						- motivated
+						- with a clear path
+			.col
+	.row(style='text-align:center;height: 100%')
+		h1 Hey
+	.row
+		.col
+			| s
+		.col
+			| 2
+		.col
+			| 3
+			.row
+				.col 1
+				.col 2
+				.col 3
